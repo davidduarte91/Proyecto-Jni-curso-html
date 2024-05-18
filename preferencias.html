@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_jni _fondo_borrado.png" type="image/x-icon">
+    <title>Horarios JNI</title>
+
+     <style>
+            body {
+            font-family: "Arial", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .header-title-image {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #111;
+        }
+
+        .header-title-image h1 {
+          margin-right: 10px; /* Ajusta el espacio entre el título y la imagen */
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+
+        main {
+          margin-bottom: 15%;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+      <div class="header-title-image">
+        <h1>JNI Victoria</h1>
+        <img src="/assets/img/logo_jni _fondo_borrado.png" alt="" width="50px">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="preferencias.html">Próximas actividades</a></li>
+          <li><a href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h2 style="margin: 15px;">Próximas reuniones</h2><hr>
+    
+    <main>
+      <div class="container">
+        <table>
+          <colgroup>
+            <col style="background-color: rgb(213, 218, 218);">
+            <col>
+            <col>
+            <col>
+            <col>
+          </colgroup>
+          <th></th>
+          <th>Lugar</th>
+          <th>Horario</th>
+  
+          
+          <tr>
+            <td>Sáb. 18/05</td>
+            <td>Casa de Arací</td>
+            <td>19h</td>
+          </tr>
+          <tr>
+            <td>Sáb. 25/05</td>
+            <td>Igle</td>
+            <td>19h</td>
+          </tr>
+          <tr>
+            <td>Sáb. 01/06</td>
+            <td>Salida al shopping</td>
+            <td>18h</td>
+          </tr>
+          <tr>
+            <td>Sáb. 08/06</td>
+            <td>Igle</td>
+            <td>19h</td>
+          </tr>
+  
+        </table>
+      </div>
+  
+    </main>
+    
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>

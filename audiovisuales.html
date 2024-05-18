@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo_jni _fondo_borrado.png" type="image/x-icon">
+    <title>JNI VICTORIA</title>
+
+    <style>
+      body {
+          font-family: "Arial", "Courier New", monospace;
+          background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+          padding: 0;
+          margin: 0;
+      }
+
+      header {
+          text-align: center;
+      }
+
+      .header-title-image {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #111;
+        }
+
+      .header-title-image h1 {
+          margin-right: 10px; /* Ajusta el espacio entre el título y la imagen */
+      }
+
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+      }
+
+      li {
+          float: left;
+      }
+
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
+
+      li a:hover:not(.active) {
+          background-color: #111;
+      }
+
+      .active {
+          background-color: #04AA6D;
+      }
+
+      h1 {
+          background-color: black;
+          padding: 10px;
+          margin: 0;
+          color: #92a4ff;
+      }
+
+      div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          float: left;
+          width: 33vw;
+      }
+
+      div.gallery:hover {
+          border: 1px solid #777;
+      }
+
+      div.gallery img {
+          width: 100%;
+          height: auto;
+      }
+
+      div.desc {
+          padding: 15px;
+          text-align: center;
+      }
+
+      .centrado {
+        margin: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .footer {
+          background-color: #333;
+          color: #FFF;
+          padding: 10px;
+          text-align: center;
+          clear: both;
+      }
+  </style>
+</head>
+<body>
+    
+    <header>
+      <div class="header-title-image">
+        <h1>JNI Victoria</h1>
+        <img src="/assets/img/logo_jni _fondo_borrado.png" alt="" width="50px">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="preferencias.html">Próximas actividades</a></li>
+          <li class="active"><a href="audiovisuales.html">Audiovisuales</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="centrado">
+      <video src="/assets/video/VID_20230701_201029775.mp4" width="600" autoplay muted loop></video>
+    </div>
+    
+    <div class="centrado">
+      <audio src="/assets/audio/Fenomenal - Amor Sin Fin (Oficial) (320 kbps).mp3" controls></audio>
+    </div>
+    
+
+    <section class="centrado">
+      <div class="gallery">
+        <img src="/assets/img/IMG_20231209_214147655_MFNR.jpg" alt="" style="height: 242px;">
+        <div class="desc">Jni Victoria</div>
+      </div>
+      <div class="gallery">
+        <img src="/assets/img/IMG_20240309_215733788_MFNR.jpg" alt="" width="600">
+        <div class="desc">Jni Victoria</div>
+      </div>
+      <div class="gallery">
+        <img src="/assets/img/IMG_20240309_215800154_MFNR.jpg" alt="" width="600">
+        <div class="desc">Jni Victoria</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
